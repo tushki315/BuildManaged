@@ -17,6 +17,7 @@ public class Login {
 	String browser = "chrome";
 	@Test(enabled=false, priority = 2)
 	public void negativeLogin() throws InterruptedException {
+		
 		WebDriver driver = null;
 		if (browser.equals("chrome"))
 		{
